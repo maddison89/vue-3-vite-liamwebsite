@@ -6,4 +6,4 @@
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
   ]
-  </script>
+</script>
