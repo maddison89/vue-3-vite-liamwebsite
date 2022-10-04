@@ -12,7 +12,7 @@
         <div class="mt-8">
           <div class="inline-flex rounded-md shadow">
             <a href="#" class="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-gray-900 hover:bg-gray-50">
-              Visit the help center
+              {{ ctaText }}
             </a>
           </div>
         </div>
@@ -22,5 +22,5 @@
 </template>
 
 <script setup>
-
+  defineProps(['ctaText'])
 </script>
