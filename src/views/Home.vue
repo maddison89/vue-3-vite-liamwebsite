@@ -1,5 +1,8 @@
 <template>
-  <MainHero />
+  <div>
+    <img class="h-full w-full object-cover" src="../assets/promo_main_1.jpg" alt="" />
+  </div>
+  <MainHero ctaText="This is the CTA title" />
 </template>
 
 <script setup>
@@ -9,6 +12,4 @@
     MainHero
   }
 
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 </script>
